@@ -1,0 +1,138 @@
+<p>place id: {{ placeId }}</p>
+
+<form class="p-fluid">
+
+  <div class="p-field">
+    <label for="name_ar">Name (Arabic)</label>
+    <input id="name_ar" pInputText [(ngModel)]="place.name_ar" name="name_ar" disabled />
+  </div>
+
+  <div class="p-field">
+    <label for="address_ar">Address (Arabic)</label>
+    <input id="address_ar" pInputText [(ngModel)]="place.address_ar" name="address_ar" disabled />
+  </div>
+
+  <div class="p-field">
+    <label for="name_en">Name (English)</label>
+    <input id="name_en" pInputText [(ngModel)]="place.name_en" name="name_en" disabled />
+  </div>
+
+  <div class="p-field">
+    <label for="contact">Contact</label>
+    <input id="contact" pInputText [(ngModel)]="place.contact" name="contact" disabled />
+  </div>
+
+  <div class="p-field">
+    <label for="description_ar">Description (Arabic)</label>
+    <textarea id="description_ar" pInputTextarea [(ngModel)]="place.description_ar" name="description_ar" disabled></textarea>
+  </div>
+
+  <div class="p-field">
+    <label for="address_en">Address (English)</label>
+    <input id="address_en" pInputText [(ngModel)]="place.address_en" name="address_en" disabled />
+  </div>
+
+  <div class="p-field">
+    <label for="description_en">Description (English)</label>
+    <textarea id="description_en" pInputTextarea [(ngModel)]="place.description_en" name="description_en" disabled></textarea>
+  </div>
+
+  <div class="p-field">
+    <label for="created_at">Created At</label>
+    <input id="created_at" pInputText [(ngModel)]="place.created_at" name="created_at" disabled />
+  </div>
+
+  <div class="p-field">
+    <label for="created_by">Created By</label>
+    <input id="created_by" pInputText [(ngModel)]="place.created_by" name="created_by" disabled />
+  </div>
+
+  <div class="p-field">
+    <label for="last_modified_at">Last Modified At</label>
+    <input id="last_modified_at" pInputText [(ngModel)]="place.last_modified_at" name="last_modified_at" disabled />
+  </div>
+
+  <div class="p-field">
+    <label for="last_modified_by">Last Modified By</label>
+    <input id="last_modified_by" pInputText [(ngModel)]="place.last_modified_by" name="last_modified_by" disabled />
+  </div>
+
+  <div class="p-field">
+    <label for="address_auto_num">Address Auto Number</label>
+    <input id="address_auto_num" pInputText [(ngModel)]="place.address_auto_num" name="address_auto_num" disabled />
+  </div>
+
+  <div class="p-field">
+    <label for="block_no">Block Number</label>
+    <input id="block_no" pInputText [(ngModel)]="place.block_no" name="block_no" disabled />
+  </div>
+
+  <div class="p-field">
+    <label for="building_name">Building Name</label>
+    <input id="building_name" pInputText [(ngModel)]="place.building_name" name="building_name" disabled />
+  </div>
+
+  <div class="p-field">
+    <label for="building_no">Building Number</label>
+    <input id="building_no" pInputText [(ngModel)]="place.building_no" name="building_no" disabled />
+  </div>
+
+  <div class="p-field">
+    <label for="construction_no">Construction Number</label>
+    <input id="construction_no" pInputText [(ngModel)]="place.construction_no" name="construction_no" disabled />
+  </div>
+
+  <div class="p-field">
+    <label for="floor_no">Floor Number</label>
+    <input id="floor_no" pInputText [(ngModel)]="place.floor_no" name="floor_no" disabled />
+  </div>
+
+  <div class="p-field">
+    <label for="full_address">Full Address</label>
+    <input id="full_address" pInputText [(ngModel)]="place.full_address" name="full_address" disabled />
+  </div>
+
+  <div class="p-field">
+    <label for="government_id">Government ID</label>
+    <input id="government_id" pInputText [(ngModel)]="place.government_id" name="government_id" disabled />
+  </div>
+
+  <div class="p-field">
+    <label for="locationx">Location X</label>
+    <input id="locationx" pInputText [(ngModel)]="place.locationx" name="locationx" disabled />
+  </div>
+
+  <div class="p-field">
+    <label for="locationy">Location Y</label>
+    <input id="locationy" pInputText [(ngModel)]="place.locationy" name="locationy" disabled />
+  </div>
+
+  <div class="p-field">
+    <label for="note">Note</label>
+    <textarea id="note" pInputTextarea [(ngModel)]="place.note" name="note" disabled></textarea>
+  </div>
+
+  <div class="p-field">
+    <label for="plot_no">Plot Number</label>
+    <input id="plot_no" pInputText [(ngModel)]="place.plot_no" name="plot_no" disabled />
+  </div>
+
+  <div class="p-field">
+    <label for="street">Street</label>
+    <input id="street" pInputText [(ngModel)]="place.street" name="street" disabled />
+  </div>
+
+  <div class="p-field">
+    <label for="unit_no">Unit Number</label>
+    <input id="unit_no" pInputText [(ngModel)]="place.unit_no" name="unit_no" disabled />
+  </div>
+
+  <div class="p-field">
+    <label for="unit_type">Unit Type</label>
+    <input id="unit_type" pInputText [(ngModel)]="place.unit_type" name="unit_type" disabled />
+  </div>
+
+  <div class="p-field">
+    <button pButton type="button" label="Back" (click)="searchPlace()"></button>
+  </div>
+</form>

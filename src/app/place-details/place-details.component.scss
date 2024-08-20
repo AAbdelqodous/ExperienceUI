@@ -1,0 +1,11 @@
+/* Style for the form fields */
+.p-fluid .p-field {
+  margin-bottom: 1rem;
+}
+
+/* Style for the disabled inputs */
+input[disabled], textarea[disabled] {
+  background-color: #f5f5f5; /* Light gray background for disabled inputs */
+  color: #aaa; /* Gray text color for disabled inputs */
+  cursor: not-allowed;
+}

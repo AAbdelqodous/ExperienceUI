@@ -33,13 +33,13 @@ interface Place {
   unit_type: string;
   }
 @Component({
-  selector: 'app-place-form',
+  selector: 'app-create-place',
   standalone: true,
-  imports: [ InputTextModule, ButtonModule, FormsModule, CommonModule ],
-  templateUrl: './place-form.component.html',
-  styleUrl: './place-form.component.scss'
+  imports: [InputTextModule, ButtonModule, FormsModule, CommonModule],
+  templateUrl: './create-place.component.html',
+  styleUrl: './create-place.component.scss'
 })
-export class PlaceFormComponent {
+export class CreatePlaceComponent {
   place: Place = {} as Place;
   isSubmitted: boolean = false;
 

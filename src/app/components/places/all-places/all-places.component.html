@@ -35,15 +35,11 @@
   <ng-template pTemplate="body" let-place>
     <tr>
       <td>
-        <p-button pButton
-                label="Edit"
-                [text]="true"
-                [link]="true"
-                (click)="goToPlaceDetails(place.id)">
+        <p-button pButton label="Edit" [text]="true" [link]="true" (click)="goToPlaceDetails(place.id)">
         </p-button>
         <!--<a routerLink="/place-details" class="p-button font-bold">
-          Details
-        </a>-->
+            Details
+          </a>-->
       </td>
       <td>{{ place.id }}</td>
       <td>{{ place.name_ar }}</td>
@@ -76,4 +72,3 @@
     </tr>
   </ng-template>
 </p-table>
-
